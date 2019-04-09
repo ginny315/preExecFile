@@ -1,0 +1,27 @@
+{
+  "name": "pre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pre.js",
+  "scripts": {
+    "dev": "node pre.js",
+    "build": "webpack -w",
+    "watch": "webpack-dev-server --hot  --colors",
+    "dist": "node bundle.js"
+  },
+  "dependencies": {
+    "zip": "^1.2.0",
+    "zip-stream": "^1.1.0",
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "await": "^0.2.6",
+    "child_process": "^1.0.2",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "*",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "engines": {
+    "node": "4.4"
+  }
+}
